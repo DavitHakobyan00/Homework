@@ -1,4 +1,6 @@
-public class PrimitiveDataTypes {
+package variable;
+
+public class primitiv_data_types {
     public static void main(String[] args) {
 
         /** 1․Ստեղծել 2 փոփոխական(byte a և byte b ),  վերագրել
@@ -79,7 +81,9 @@ public class PrimitiveDataTypes {
         System.out.println(s);
         System.out.println(w);
 
-        // 12. Boolean variables
+        /** 12.Ստեղծել 2 փոփոխական(boolean p և boolean q ),
+         *վերագրել կամայական արժեքներ և տպել console -ում․
+         */
         boolean p = true;
         boolean q = false;
         System.out.println(p);
@@ -94,7 +98,7 @@ public class PrimitiveDataTypes {
         double myDouble = myInt;
         System.out.println(myDouble);
 
-        // 14. Type casting (narrowing)
+        // 14. Type casting 
         double dd = 9.78;
         int ii = (int) dd;
         System.out.println(ii);
@@ -104,20 +108,6 @@ public class PrimitiveDataTypes {
         System.out.println(gg);
 
         // 15. Fixing errors
-        long max = 3123456789L;
-        double dValue = 1000.00;
-        char i = 'i';
-        char jChar = 'j';
-        char ij = (char) (i + jChar);
-        System.out.println(ij);
 
-        int a7 = 8;
-        long hVal = 10;
-        hVal = hVal + 8;
-        System.out.println(hVal);
-
-        int nVal, mVal = 11;
-        nVal = mVal;
-        System.out.println(nVal);
     }
 }
