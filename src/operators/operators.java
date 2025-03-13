@@ -171,34 +171,7 @@ public class operators {
         System.out.println(b ^ b);
     }
 
-
-
-
-
-
-
-}
-
-
-
-
-        //Bitwise & Logical Operators//
-
-        // 1.Ստեղծել 2 փոփոխական(int a = 8, int b = 3), տպել console -ում  հետևյալը․
-/*
-        int j = 8;               //8=(binary)1000
-        int s = 3;               //3=(binary)0011
-
-        System.out.println(j & s);
-        System.out.println(j ^ s);
-        System.out.println(j | s);
-        System.out.println(~j);
-        System.out.println(true || (j < 4));
-        System.out.println((s >= 6) || (++j <= 7));
-        System.out.println((j < s) ? j : s);
-        System.out.println(s ^ s);
-
-        /** j & s =  1000  =  0000           ete erku tex@ ka 1 apa 1 ete che apa 0
+       /** j & s =  1000  =  0000           ete erku tex@ ka 1 apa 1 ete che apa 0
          *            0011
          *
          *  j ^ s =  1000  =  1011           ete erku texum iraric tarbervox en apa 1 ete che 0
@@ -223,17 +196,17 @@ public class operators {
          */
 
 
-        //Shift Operator//
+    //Shift Operator//
 
-        // 1․Տպել console -ում  հետևյալը․
+    /**
+     *  1․Տպել console -ում  հետևյալը․
+     *  10=1010
+     * -10=
+     *  20=10100
+     *  15=1111
+     */
+      
 
-        /**
-         *    10=1010
-         *   -10=
-         *    20=10100
-         *    15=1111
-         */
-         /**
         System.out.println(10 << 2);     // 1) 10 << 2 = 101000
         System.out.println(-10 << 3);    // 2)-10 << 3 =
         System.out.println(20 >> 2);     // 3) 20 >> 2 = 101
