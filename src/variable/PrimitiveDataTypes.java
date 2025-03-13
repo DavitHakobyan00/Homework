@@ -98,7 +98,7 @@ public class primitiv_data_types {
         double myDouble = myInt;
         System.out.println(myDouble);
 
-        // 14. Type casting 
+        // 14. Type casting
         double dd = 9.78;
         int ii = (int) dd;
         System.out.println(ii);

@@ -1,4 +1,4 @@
-public class Methods {
+public class methods {
 
     // 1.Write a method which has two input parameters:: type  int and return 0.
     public static int methodWithTwoInts(int a, int b) {
