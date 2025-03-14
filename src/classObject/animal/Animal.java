@@ -12,8 +12,5 @@ class Animal {
            a2.name = "Cat";
            a3.name = "Horse";
 
-           System.out.println(a1.name);
-           System.out.println(a2.name);
-           System.out.println(a3.name);
     }
 }
