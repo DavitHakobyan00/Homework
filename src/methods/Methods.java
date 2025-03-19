@@ -5,7 +5,7 @@ public class Methods {
     /**
      *   1.Write a method which has two input parameters:: type  int and return 0.
      */
-    public static float methodWithTwoInts(int a, int b) {
+    public static float withTwoInts(int a, int b) {
         return 5.5f;
     }
 
@@ -14,7 +14,7 @@ public class Methods {
      * @param a
      * @param b
      */
-    public static void methodWithoutParams(int a, int b ) {
+    public static void withoutParams(int a, int b ) {
         // Ничего не делает
     return;
     }
@@ -24,7 +24,7 @@ public class Methods {
      * 3.Write a method which has boolean input parameters  and print “Hello World"
      * @param flag
      */
-    public static void methodWithBoolean(boolean flag) {
+    public static void withBoolean(boolean flag) {
         System.out.println("Hello World");
     }
 
@@ -33,7 +33,7 @@ public class Methods {
      * @param c
      * @return
      */
-    public static char methodWithChar(char c) {
+    public static char withChar(char c) {
         return c;
     }
 
@@ -43,7 +43,7 @@ public class Methods {
      * @param y
      * @return
      */
-    public static float methodWithFloats(float x, float y) {
+    public static float withFloats(float x, float y) {
         return x; // Можно вернуть y, в зависимости от условий
     }
 }
