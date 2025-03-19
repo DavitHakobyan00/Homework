@@ -1,6 +1,6 @@
 package variable;
 
-public class primitiv_data_types {
+public class PrimitiveDataTypes {
     public static void main(String[] args) {
 
         /** 1․Ստեղծել 2 փոփոխական(byte a և byte b ),  վերագրել
